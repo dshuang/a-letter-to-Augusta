@@ -1,8 +1,11 @@
 require "./love"
-# requires ruby 1.9 
+# this script requires ruby 1.9 
 
 # passes a hash of :to=>Augusta to the method a_letter  
 a_letter to: Augusta do
+
+  # calls twas method with a hash, and a block
+  # the block is just calling the "<<" method 
   twas(only: 16.months.ago) { The::Universe << You.to(OurFamily) }
   # "*" is the splat operator, in this case coercing the string into an array
 # in ruby 1.9.3, you must assign " *"wonderful!" " to a variable and then use the variable with zip to get a interleaved array.  The code as it currently stands will act as if an empty array was passed to zip

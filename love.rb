@@ -6,6 +6,7 @@ def Infinity.ends; false; end
 
 # ruby 1.9 adds the stabby proc syntax which allows you to define a proc with an optional default parameter values, e.g. "myproc = -> (a=1,b=2) { puts a }"
 Forever = -> { puts "Augusta, we \033[31m<3\033[0m you!"; sleep 5 }
+# Symbol objects represent names and some strings inside the Ruby interpreter. They are generated using the :name and :"string" literals syntax, and by the various to_sym methods. 
 Incredible = :wunderbar!
 
 # adds "We" and "The" as modules to self.class (which is Object)
@@ -45,7 +46,7 @@ end
 def life
   Class.new do
     # "since" parameter expected to be a Hash
-    def self.has(since); since.fetch :been, Incredible; end
+    def self.has(since); puts since.fetch :been, Incredible; end
   end
 end
 

@@ -26,6 +26,10 @@ This is a real, working, program which outputs `Augusta, we <3 you!` when execut
 
 Drawn from Marc-André Cournoyer and his post "[how to apply to a job](http://macournoyer.com/blog/2010/02/23/how-to-apply-to-a-job/)."
 
+# More about ruby
+
+See https://www.ruby-lang.org/en/about/
+
 # License
 
 `cat LICENSE`
